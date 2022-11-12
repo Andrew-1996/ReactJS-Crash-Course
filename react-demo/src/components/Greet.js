@@ -1,5 +1,5 @@
-function Greet() {
-    return <h1> Hello Andrew </h1>
+export const Greet = () => {
+  return <h1> Hello Andrew </h1>
 }
 
-export default Greet;
+/* export default Greet; */
