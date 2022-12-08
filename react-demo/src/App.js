@@ -5,7 +5,9 @@ import { Greet } from './components/Greet';
 function App() {
   return (
     <div className="App">
-      <Greet />
+      <Greet name='Bruce' heroName='Batman' />
+      <Greet name='Clark' heroName='Superman' > <button> Action </button> </Greet>
+      <Greet name='Diana' heroName='Wonder Woman' > <p> This is childern props. </p> </Greet>
     </div>
   );
 }
