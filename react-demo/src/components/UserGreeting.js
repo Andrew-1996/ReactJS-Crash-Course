@@ -1,4 +1,4 @@
 export const UserGreeting = () => {
-    const isLoggedIn = true
-    return <div> Welcome { isLoggedIn ? 'Andrew' : 'Guest'} </div>
+    const isLoggedIn = false
+    return <div> Welcome { isLoggedIn && 'Andrew'} </div>
 }
