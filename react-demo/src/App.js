@@ -1,8 +1,9 @@
 import './App.css';
+import { UserGreeting } from './components/UserGreeting';
 // import { ClickHandler } from './components/ClickHandler';
 // import { Greet } from './components/Greet';
 // import { Message } from './components/message';
-import { ParentComponent } from './components/ParentComponent';
+// import { ParentComponent } from './components/ParentComponent';
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
       <Greet name='Diana' heroName='Wonder Woman' > <p> This is childern props. </p> </Greet> */}
     {/* <Message />  */}
     {/* <ClickHandler /> */}
-      <ParentComponent />
+    {/* <ParentComponent /> */}
+    <UserGreeting />
     </div>
   );
 }
